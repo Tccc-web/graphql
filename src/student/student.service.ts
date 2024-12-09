@@ -19,6 +19,7 @@ export class StudentService {
       firstName,
       lastName,
     });
+    console.log('ffff');
 
     return this.studentRepository.save(student);
   }
